@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="C:\Users\SAMSUNG\Desktop\choiyunjung\computer class\workspace\gradle.properties"/>
+		<item key="use_default_location" value="true"/>
+		<section name="ProjectCreationWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="289"/>
+			<item key="DIALOG_Y_ORIGIN" value="19"/>
+			<item key="DIALOG_WIDTH" value="973"/>
+			<item key="DIALOG_HEIGHT" value="1020"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|12.6|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		</section>
+	</section>
+</section>
