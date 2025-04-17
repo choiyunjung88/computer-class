@@ -1,0 +1,22 @@
+package com.mysite.sbb.students;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+@Controller
+@RequiredArgsConstructor
+public class StudentsController {
+
+    private final StudentRepository studentRepository;
+
+    @GetMapping("/students")
+    public String list(Model model) {
+        List<Student> students = studentRepository.findAll();
+        model.addAttribute("students", students);
+        return "students_list";
+    }
+}
